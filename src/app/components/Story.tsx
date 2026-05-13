@@ -40,7 +40,7 @@ export function Story() {
               We return to a simple truth: nature provides everything we need to thrive. No shortcuts, no compromises. Just honest, heavy-extracted juice that makes you feel alive.
             </p>
             
-            <a href="https://juicewellga.com/our-story" className="inline-block px-8 py-4 bg-transparent border-2 border-amber-500 text-amber-500 font-bold text-lg rounded-full hover:bg-amber-500 hover:text-stone-900 transition-all uppercase tracking-wider">
+            <a href="/our-story" className="inline-block px-8 py-4 bg-transparent border-2 border-amber-500 text-amber-500 font-bold text-lg rounded-full hover:bg-amber-500 hover:text-stone-900 transition-all uppercase tracking-wider">
               Read Full Story
             </a>
           </motion.div>
