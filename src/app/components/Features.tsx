@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router';
 import { Leaf, Truck, HeartPulse, Zap, Heart } from 'lucide-react';
 
 export function Features() {
@@ -69,7 +70,7 @@ export function Features() {
             <div className="bg-stone-700 w-20 h-20 flex items-center justify-center rounded-3xl mb-8 group-hover:bg-amber-400 transition-colors duration-500">
               <Heart className="w-10 h-10 text-white group-hover:text-stone-900 transition-colors" />
             </div>
-            <a href="https://juicewellga.com/our-story" className="block text-4xl font-black mb-4 uppercase tracking-tight group-hover:text-amber-400 transition-colors">Family Roots</a>
+            <Link to="/our-story" className="block text-4xl font-black mb-4 uppercase tracking-tight group-hover:text-amber-400 transition-colors">Family Roots</Link>
             <p className="text-stone-300 text-xl font-medium leading-relaxed">Born in a grandmother’s kitchen. Nourishing bodies, healing minds, and returning to a simple truth.</p>
           </motion.div>
 
