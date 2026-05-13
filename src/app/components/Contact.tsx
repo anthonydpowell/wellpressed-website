@@ -64,7 +64,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-stone-900 mb-1">Email</h4>
-                  <p className="text-stone-600">anthonydpowell8@gmail.com<br />We reply within 24 hours</p>
+                  <p className="text-stone-600">Wellpressedjuices@gmail.com<br />We reply within 24 hours</p>
                 </div>
               </motion.div>
 
@@ -111,7 +111,7 @@ export function Contact() {
                   const email = (form.elements.namedItem('email') as HTMLInputElement).value;
                   const subject = encodeURIComponent("Subscribe to WellPressed Updates");
                   const body = encodeURIComponent(`Hi WellPressed team,\n\nPlease add my email to your mailing list!\n\nEmail: ${email}\n\nStay fresh!`);
-                  window.location.href = `mailto:anthonydpowell8@gmail.com?subject=${subject}&body=${body}`;
+                  window.location.href = `mailto:Wellpressedjuices@gmail.com?subject=${subject}&body=${body}`;
                 }}
               >
                 <div className="flex flex-col gap-2">

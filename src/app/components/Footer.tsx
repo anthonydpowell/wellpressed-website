@@ -72,7 +72,7 @@ export function Footer() {
               <button 
                 type="button"
                 onClick={() => {
-                  window.location.href = 'mailto:anthonydpowell8@gmail.com?subject=Join the WellPressed Community';
+                  window.location.href = 'mailto:Wellpressedjuices@gmail.com?subject=Join the WellPressed Community';
                 }}
                 className="w-full bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg py-3 text-sm font-medium transition-colors"
               >
